@@ -1,14 +1,14 @@
 kinerja = input ('masukan kinerja mahasiswa : ')
 
 if int(kinerja) >= 90 :
-    print('kinerja sangat baik')
+    print('Excellent performance')
 elif int(kinerja) >= 80 :
-    print('kinerja sangat baik')
+    print('Very Good performance')
 elif int(kinerja) >= 70 :
-    print('kinerja bagus')
+    print('Good performance')
 elif int(kinerja) >= 60 :
-    print('kinerja rata rata')
+    print('average performance')
 
 else:
-    print ('semangat :)' )    
+    print ('nice try :)' )    
 
