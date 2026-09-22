@@ -1,12 +1,12 @@
-kinerja = input ('masukan kinerja mahasiswa : ')
+kinerja = int(input('masukan kinerja mahasiswa : '))
 
-if int(kinerja) >= 90 :
+if (kinerja) >= 90 :
     print('Excellent performance')
-elif int(kinerja) >= 80 :
+elif (kinerja) >= 80 :
     print('Very Good performance')
-elif int(kinerja) >= 70 :
+elif (kinerja) >= 70 :
     print('Good performance')
-elif int(kinerja) >= 60 :
+elif (kinerja) >= 60 :
     print('average performance')
 
 else:
